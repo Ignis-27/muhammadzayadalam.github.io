@@ -1,0 +1,39 @@
+<!-- 
+    name: Muhammad Zayad Alam 
+    student no : 100938343
+    file name: Assignment-1
+    date :- 19 January 2024
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "utf-8">
+    <title>BIRD WATCHING</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />"
+</head>
+
+</head>
+
+  <body>
+    <header>
+      <h1>Birdwatching</h1> 
+      <img src="dove.png" alt="a black dove logo ">
+
+      <nav> 
+        <u1>
+            <li><span>Home</span></li>
+            <li><a ref = '#'>Get Started</a></li>
+            <li><a ref = '#'>Photos</a></li>
+            <li><a ref = '#'>Gear</a></li>
+            <li><a ref = '#'>Forum</a></li>
+        </u1>
+      </nav>
+    </header>
+
+    <main>
+        <article>
+          <h2>Welcome</h2>
+          
+          
