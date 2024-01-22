@@ -6,22 +6,22 @@
 
 
 -->
-<!DOCTYPE html>
+<!DOCTYPE html>    
+</head>
 <html lang="en">
 <head>
     <meta charset = "utf-8">
     <title>BIRD WATCHING</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />"
-</head>
+    <link rel="stylesheet" type="text/css" href="style.css" />"     <!--link to the css style -->
 
 </head>
 
   <body>
     <header>
-      <h1>Birdwatching</h1> 
+      <h1>Birdwatching</h1>   <!-- adding a header -->
       <img src="dove.png" alt="a black dove logo ">
 
-      <nav> 
+      <nav>      <!-- creating a navigator bar with an unordered list-->
         <ul>
           <li><span>Home</span></li>
           <li><a href="#">Get started</a></li>
@@ -32,9 +32,10 @@
       </nav>
     </header>
 
-    <main>
+    <main>   <!-- Main content of the web page -->
+          
       <article>
-         <h2>Welcome</h2>
+         <h2>Welcome</h2>   
             
           <p> Welcome to our fake birdwatching page website .If this was a real website ,it would be the ideal place to 
               come and learn about birdwatching ,whether you are a beginner looking how to get into birdwatching,or an expert
@@ -45,7 +46,7 @@
   
       </article>
        <aside>
-                <h2> Favourite photos</h2>
+                <h2> Favourite photos</h2>   <!-- adding pictures and their alternative text-->
   
                 <a href="favorite-1.jpg">
                   <img src="favorite-1_th.jpg" 
@@ -64,7 +65,7 @@
         </main>
        
             
-        <footer>
+        <footer>     <!--closing the pagwe with a footer  -->
                 <p>This fake website example is CC0 — any part of this code may be reused in any way you wish
                   original example written by Chris Mills,2016
                 </p>
