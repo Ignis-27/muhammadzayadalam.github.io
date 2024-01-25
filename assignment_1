@@ -21,7 +21,7 @@
     <header>
 
       <h1>Birdwatching</h1>           <!-- adding a header -->
-      <img src="dove.png" alt="a black dove logo ">
+      <img src="" alt="a black dove logo ">
       <nav>
         <ul>
           <li><span>Home</span></li>      <!-- creating a navigator bar with an unordered list-->
