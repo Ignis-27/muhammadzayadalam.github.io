@@ -13,13 +13,36 @@ html {
 
 /* Your CSS below here */
 
-body {
+body {   /* main body style */
   background-color: #fff;
   color: #333;
   font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
   padding: 1em;
   margin: 0;
 }
+
+.box-style{   /* for the box */
+
+  width:400px;  /* adjusts the width*/
+  height:400px; /*adjusts the height*/
+  display: flex; /*this aligns the text int middle of the box*/
+  justify-content: center; /* Center the box horizontally */
+  align-items: center; /* Center the text vertically */
+ 
+  margin: 0 auto;  /*sets the margin*/
+  font-size: 1.8rem;  /* since the base size is 10px so 18 px based on that = 18/10 = 1.8 rem */ 
+  color: white;     /*color for the text*/
+  text-shadow: 1px 2px black;  /*shadow color*/
+  background-color: blue;   /*color of the box*/
+  border: 3px solid black;   /*sets the border*/
+  border-radius: 8px;       /*radius of the border*/
+  box-shadow: 5px 5px 10px black, inset 3px 3px 5px black, inset -3px -3px 5px whitesmoke;  /*adding the shadows */
+  background-image: linear-gradient(to bottom right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 30%, rgba(0,0,0,0.2) 100%);  /* linear grading*/
+  
+
+}
+
+
 
 
 
