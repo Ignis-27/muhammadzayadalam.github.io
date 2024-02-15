@@ -17,6 +17,9 @@ body {   /* main body style */
   background-color: #fff;
   color: #333;
   font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 1em;
   margin: 0;
 }
