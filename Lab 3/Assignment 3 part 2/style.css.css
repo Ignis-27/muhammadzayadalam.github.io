@@ -1,5 +1,25 @@
+/* 
+    name: Muhammad Zayad Alam 
+    student no : 100938343
+    file name: style.css
+    date :- 14th febuary 2024
+    description :- style for the this is a cool box page 
+
+*/
+
 html {
   font-family: sans-serif;
 }
 
 /* Your CSS below here */
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+
+
