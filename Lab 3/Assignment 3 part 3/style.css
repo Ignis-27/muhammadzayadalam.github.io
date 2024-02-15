@@ -8,6 +8,11 @@ body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
+  font-family: "Lato-BlackItalic";
+  font-size: 10px ;
+  line-height: 1.7;
+  letter-spacing: normal;
+  word-spacing: normal;
 }
 
 /* Layout */
@@ -43,3 +48,10 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+@font-face{
+  font-family: "Lato-Black";
+  src: url("Lato-Black.ttf") format("truetype");
+
+
+}
+ 
