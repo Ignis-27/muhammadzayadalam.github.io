@@ -52,4 +52,6 @@ body {
 
   .feature {
       width: 200px;
+      float: left; /* this is for the text to wrap arount the image*/
+      margin-right: 1em ;
   }
