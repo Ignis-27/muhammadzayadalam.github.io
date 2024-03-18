@@ -13,6 +13,14 @@ const images = ["pic1.jpg",
 
 /* Declaring the alternative text for each image file */
 
+const alt = {
+    'pic1.jpg' : ' a human eye',
+    'pic2.jpg' : 'Rock that looks like a wave',
+    'pic3.jpg' : 'Purple and white flowers',
+    'pic4.jpg' : 'wall from a pharoah\'s tomb',
+    'pic5.jpg' : 'Large butterfly on a leaf'}
+
+
 /* Looping through images */
 
 const newImage = document.createElement('img');
