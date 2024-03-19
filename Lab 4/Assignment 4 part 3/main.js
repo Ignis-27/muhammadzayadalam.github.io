@@ -42,6 +42,8 @@ draw(); {
   ctx.fill();
 }
 
+
+
 //a new ball instance 
 
 const testBall = new Ball (50,100,4,4,"blue",10);
@@ -74,6 +76,22 @@ update(); {
   this.y += this.velY;
 }
 
+//adding collision detection 
+collisionDetect() {
+  for (const ball of balls) {
+    if (this !== ball) {
+      const dx = this.x - ball.x;
+      const dy = this.y - ball.y;
+      const distance = Math.sqrt(dx * dx + dy * dy);
+
+      if (distance < this.size + ball.size) {
+        ball.color = this.color = randomRGB();
+      }
+    }
+  }
+}
+
+
 //animating the ball 
 
 
@@ -104,6 +122,7 @@ function loop() {
   for (const ball of balls) {
     ball.draw();
     ball.update();
+    
   }
 
   requestAnimationFrame(loop);
