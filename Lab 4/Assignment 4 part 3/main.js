@@ -77,7 +77,7 @@ update(); {
 }
 
 //adding collision detection 
-collisionDetect() {
+collisionDetect(); {
   for (const ball of balls) {
     if (this !== ball) {
       const dx = this.x - ball.x;
