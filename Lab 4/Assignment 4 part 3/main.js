@@ -35,7 +35,7 @@ class Ball {
 
 // a method to draw ball
 
-draw() {
+draw(); {
   ctx.beginPath();
   ctx.fillStyle = this.color;
   ctx.arc(this.x,this.y,this.size,0,2 * Math.PI);
@@ -53,7 +53,7 @@ testBall.draw();
 
 //function to update our ball data
 
-update() {
+update(); {
   if ((this.x + this.size) >= width) {
     this.velX = -(this.velX);
   }
@@ -108,3 +108,7 @@ function loop() {
 
   requestAnimationFrame(loop);
 }
+
+
+//calling the loop 
+loop();
