@@ -77,11 +77,30 @@ class Ball extends Shape{
   }
 }
 
+//new class for the evil circle 
 class EvilCircle extends Shape{
   constructor (x,y){
     super(x,y,20,20);
     this.color = white;
     this.size = 10;
+
+    //for the cursor to move around the screen
+    window.addEventListener("keydown", (e) => {
+      switch (e.key) {
+        case "a":
+          this.x -= this.velX;
+          break;
+        case "d":
+          this.x += this.velX;
+          break;
+        case "w":
+          this.y -= this.velY;
+          break;
+        case "s":
+          this.y += this.velY;
+          break;
+      }
+    });
   }
 }
 
