@@ -129,11 +129,28 @@ class EvilCircle extends Shape{
       if (this.y - this.size <= 0) {
         this.y = this.size;
       }
-  
-     
+
     }
 
+    collisionDetect(); {
+      for (const ball of balls) {
+        if (ball.exists) {  //ball to be considered for collison 
+          const dx = this.x - ball.x;
+          const dy = this.y - ball.y;
+          const distance = Math.sqrt(dx * dx + dy * dy);
+  
+          if (distance < this.size + ball.size) {
+            ball.exists = false;
+            count--;
+            para.textContent = 'Ball Count: ' + count;
+          }
+        }
+      }
+    }
+      
+
   }
+
 }
 
 const balls = [];
