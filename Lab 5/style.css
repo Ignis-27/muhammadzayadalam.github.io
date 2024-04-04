@@ -18,9 +18,9 @@ body {
 
 /* || typography */
 
-font[size="7"], font[size="6"], font[size="5"] {
-  font-family: 'Sonsie One', cursive;
-  color: #2a2a2a;
+h1,h2,h3 {
+  font-family:  Arial, Helvetica, sans-serif;
+  color: #000000;
 }
 
 p, input, li, table, label {
@@ -28,19 +28,19 @@ p, input, li, table, label {
   color: #2a2a2a;
 }
 
-font[size="7"] {
+h1 {
   font-size: 4rem;
   text-align: center;
   color: white;
   text-shadow: 2px 2px 10px black;
 }
 
-font[size="6"] {
+h2 {
   font-size: 3rem;
   text-align: center;
 }
 
-font[size="5"] {
+h3 {
   font-size: 2.2rem;
 }
 
@@ -64,9 +64,9 @@ article {
 }
 
 div[class="nav"] {
-  background-color: white;
+  background-color: wheat;
     padding: .5em;
-    position: sticky; /*this makes the van bar sticky*/
+    position: sticky; /*this makes the nav bar sticky*/
     top: 0;
     
  
@@ -130,6 +130,7 @@ article {
 
 .secondary {
   flex: 2;
+  
 }
 
 footer {
